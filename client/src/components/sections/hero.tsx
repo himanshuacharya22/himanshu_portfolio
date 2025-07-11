@@ -57,18 +57,18 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="hero-bg min-h-screen flex items-center justify-center relative">
-      <div className="container mx-auto px-6 text-center z-10">
+    <section id="home" className="hero-bg min-h-screen flex items-center justify-center relative pt-20 md:pt-0">
+      <div className="container mx-auto px-4 sm:px-6 text-center z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-8"
+          className="mb-4 sm:mb-6 lg:mb-8"
         >
           <img 
             src="/profile.png" 
             alt="Himanshu Acharya - Software Developer" 
-            className="w-48 h-48 rounded-full mx-auto border-4 border-accent shadow-2xl animate-float object-cover" 
+            className="w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 rounded-full mx-auto border-4 border-accent shadow-2xl animate-float object-cover" 
           />
         </motion.div>
 
@@ -76,7 +76,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-5xl md:text-7xl font-bold mb-4"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4"
         >
           <span className="text-white">Himanshu</span>{" "}
           <span className="text-accent">Acharya</span>
@@ -86,7 +86,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xl md:text-2xl text-gray-300 mb-6 h-8"
+          className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 sm:mb-6 h-6 sm:h-8"
         >
           <span className="inline-block">
             {displayText}
@@ -98,7 +98,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto flex items-center justify-center"
+          className="text-base sm:text-lg text-gray-400 mb-6 sm:mb-8 max-w-2xl mx-auto flex items-center justify-center"
         >
           <MapPin className="w-5 h-5 text-accent mr-2" />
           Gurugram, Haryana, India
@@ -108,11 +108,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="flex flex-col md:flex-row gap-4 justify-center items-center mb-12"
+          className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-8 sm:mb-12"
         >
           <Button
             onClick={scrollToProjects}
-            className="bg-accent text-accent-foreground px-8 py-4 rounded-full font-semibold hover:bg-accent/80 transition-all animate-glow"
+            className="bg-accent text-accent-foreground px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold hover:bg-accent/80 transition-all animate-glow"
           >
             <Eye className="w-4 h-4 mr-2" />
             View My Work
@@ -120,7 +120,7 @@ export default function Hero() {
           <Button
             onClick={downloadResume}
             variant="outline"
-            className="glassmorphism px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition-all border-white/20 text-white"
+            className="glassmorphism px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold hover:bg-white/20 transition-all border-white/20 text-white"
           >
             <Download className="w-4 h-4 mr-2" />
             Download Resume

@@ -136,7 +136,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-20">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -147,7 +147,7 @@ export default function Contact() {
           Get In <span className="text-accent">Touch</span>
         </motion.h2>
         
-        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
+        <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Information */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -165,16 +165,16 @@ export default function Contact() {
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               {contactInfo.map((info, index) => (
-                <GlassmorphismCard key={index} className="p-6 hover:scale-105 transition-transform">
+                <GlassmorphismCard key={index} className="p-4 sm:p-6 hover:scale-105 transition-transform">
                   <div className="flex items-center">
-                    <div className={`${info.bgColor} p-3 rounded-lg mr-4`}>
-                      <info.icon className={`${info.color} text-xl w-5 h-5`} />
+                    <div className={`${info.bgColor} p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0`}>
+                      <info.icon className={`${info.color} w-4 h-4 sm:w-5 sm:h-5`} />
                     </div>
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-white">{info.title}</h4>
-                      <p className="text-gray-300">{info.value}</p>
+                    <div className="flex-1 min-w-0">
+                      <h4 className="font-semibold text-white text-sm sm:text-base">{info.title}</h4>
+                      <p className="text-gray-300 text-sm sm:text-base break-all">{info.value}</p>
                     </div>
                     {info.copyable && (
                       <Button
@@ -192,16 +192,16 @@ export default function Contact() {
               ))}
 
               {socialLinks.map((link, index) => (
-                <GlassmorphismCard key={index} className="p-6 hover:scale-105 transition-transform">
+                <GlassmorphismCard key={index} className="p-4 sm:p-6 hover:scale-105 transition-transform">
                   <div className="flex items-center">
-                    <div className={`${link.bgColor} p-3 rounded-lg mr-4`}>
-                      <svg className={`${link.color} text-xl w-5 h-5`} fill="currentColor" viewBox="0 0 24 24">
+                    <div className={`${link.bgColor} p-2 sm:p-3 rounded-lg mr-3 sm:mr-4 flex-shrink-0`}>
+                      <svg className={`${link.color} w-4 h-4 sm:w-5 sm:h-5`} fill="currentColor" viewBox="0 0 24 24">
                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                       </svg>
                     </div>
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-white">LinkedIn</h4>
-                      <p className="text-gray-300">{link.title}</p>
+                    <div className="flex-1 min-w-0">
+                      <h4 className="font-semibold text-white text-sm sm:text-base">LinkedIn</h4>
+                      <p className="text-gray-300 text-sm sm:text-base">{link.title}</p>
                     </div>
                     <a 
                       href={link.url}
@@ -218,7 +218,7 @@ export default function Contact() {
             </div>
 
             {/* Availability Status */}
-            <GlassmorphismCard className="p-6">
+            <GlassmorphismCard className="p-4 sm:p-6">
               <div className="flex items-center mb-4">
                 <div className="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
                 <span className="text-green-400 font-semibold">Available for opportunities</span>
@@ -236,11 +236,11 @@ export default function Contact() {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <GlassmorphismCard className="p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">Send a Message</h3>
+            <GlassmorphismCard className="p-4 sm:p-6 lg:p-8">
+              <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Send a Message</h3>
               <Form {...form}>
-                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-6">
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 sm:space-y-6">
+                  <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                     <FormField
                       control={form.control}
                       name="name"
@@ -278,7 +278,7 @@ export default function Contact() {
                     />
                   </div>
                   
-                  <div className="grid md:grid-cols-2 gap-6">
+                  <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                     <FormField
                       control={form.control}
                       name="company"
