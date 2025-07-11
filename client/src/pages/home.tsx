@@ -51,12 +51,12 @@ export default function Home() {
       {/* Back to Top Button */}
       <Button
         onClick={scrollToTop}
-        className={`fixed bottom-8 right-8 p-3 rounded-full shadow-lg bg-accent text-accent-foreground hover:bg-accent/80 transition-all transform hover:scale-110 z-50 ${
+        className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 md:bottom-8 md:right-8 p-2 sm:p-3 rounded-full shadow-lg bg-accent text-accent-foreground hover:bg-accent/80 transition-all transform hover:scale-110 z-50 ${
           showBackToTop ? 'opacity-100' : 'opacity-0'
         }`}
         size="icon"
       >
-        <ArrowUp className="h-5 w-5" />
+        <ArrowUp className="h-4 w-4 sm:h-5 sm:w-5" />
       </Button>
     </div>
   );
