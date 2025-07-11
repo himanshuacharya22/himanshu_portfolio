@@ -1,0 +1,526 @@
+# Professional Resume Website Development Prompt
+
+## Project Overview
+Create a modern, professional resume website for **Himanshu Acharya**, a Computer Applications graduate specializing in backend development and Android app engineering. The website should showcase his impressive academic achievements (Gold Medalist), professional experience with AI-powered enterprise solutions, and technical expertise in Python, Kotlin, and GenAI technologies.
+
+## Design Requirements
+
+### Overall Aesthetic
+- **Modern, clean, and professional design** with a tech-forward feel
+- **Dark theme with vibrant accent colors** (consider blues, purples, or teals)
+- **Glassmorphism effects** and subtle animations for premium feel
+- **Responsive design** that works perfectly on all devices
+- **Smooth scrolling** and page transitions
+- **Interactive elements** that respond to user actions
+
+### Color Scheme Suggestions
+- Primary: Deep navy or charcoal (#1a1a2e, #16213e)
+- Secondary: Electric blue or teal (#0f4c75, #3282b8)
+- Accent: Bright cyan or gold (#00d4ff, #ffd700)
+- Text: Pure white and light grays
+- Background: Gradient from dark to darker tones
+
+### Typography
+- **Primary font**: Modern sans-serif (Inter, Poppins, or Outfit)
+- **Secondary font**: Clean monospace for code snippets (JetBrains Mono)
+- **Hierarchy**: Clear distinction between headings, subheadings, and body text
+
+## Website Structure & Content
+
+### 1. Hero Section
+- **Full-screen landing area** with animated background (subtle particle effects or geometric patterns)
+- **Professional headshot** (placeholder if not available)
+- **Name**: "Himanshu Acharya" - large, bold typography
+- **Title**: "Software Developer | GenAI Specialist | Gold Medalist"
+- **Location**: "Gurugram, Haryana, India"
+- **Animated typewriter effect** for dynamic introduction
+- **Call-to-action buttons**: "View My Work" and "Download Resume"
+- **Social links**: LinkedIn, GitHub, Email (with hover animations)
+
+### 2. About Section
+#### Profile Summary
+- **Detailed overview** of his background as a Computer Applications graduate
+- **Highlight key achievements**: Gold Medalist, IEEE research publication, Google certifications
+- **Current role**: Software Developer at Cubastion Consulting working on AI-powered enterprise solutions
+- **Career focus**: Backend development, Android app engineering, GenAI technologies
+- **Skills spotlight**: Python, Flask, Kotlin, Azure OpenAI, LangChain
+
+#### Quick Stats Cards
+- **9.41 CGPA** (Gold Medalist)
+- **2+ Years** Experience
+- **5+ Projects** Completed
+- **IEEE Published** Research
+
+### 3. Experience Section
+#### Current Role - Cubastion Consulting (Aug 2024 – Present)
+- **Position**: Software Developer (GTE) & Intern
+- **Location**: Gurugram, Haryana
+- **Key Projects**:
+  - **GenAI Chatbot Backend (RAG)**: Developed scalable Python/Flask backend for AI chatbot helping employees resolve technical queries
+  - **System Architecture**: Implemented RAG pipeline with LangChain and LangGraph, Azure OpenAI integration
+  - **Document Search & Indexing**: Managed large technical manuals in Azure Blob Storage with Azure AI Search
+  - **API Development**: Built secure REST APIs with role-based access control
+  - **Deployment**: Containerized with Docker, CI/CD pipelines, performance monitoring
+
+#### Previous Roles
+- **Pelagian Softwares** (Jun 2023 – Aug 2023): Android Developer Intern
+  - Native Android app development with Kotlin
+  - Camera integration and permissions management
+  - Backend API integration
+  
+- **Sunarc Technologies** (Jul 2022 – Sep 2022): Software Developer Intern
+  - Full-stack mobile app development
+  - Python Flask backend with RESTful APIs
+  - Room DB for offline data management
+
+### 4. Education Section
+- **Master of Computer Applications (MCA)** - Manipal University Jaipur (2024-2026)
+- **Bachelor of Computer Applications** - Amity University Gurugram (2021-2024)
+  - **Gold Medalist** with 9.41 CGPA
+- **Secondary Education** details with timeline
+
+### 5. Projects Showcase - Interactive Gallery
+#### Featured Projects (with fully interactive cards and valid links)
+
+**🚀 Mitsubishi Fuso - GenAI Chatbot** (Current Project)
+- **Description**: Enterprise-grade GenAI chatbot for automated support and documentation lookup
+- **Technologies**: Python, Flask, LangChain, Azure OpenAI, RAG
+- **Status**: In Development
+- **Interactive Elements**: 
+  - Live demo preview (if available)
+  - Architecture diagram overlay
+  - Technology stack visualization
+- **Links**: Company portfolio link, case study (if shareable)
+
+**🧠 Brain Tumor Detector** 
+- **Description**: Machine Learning model for medical image classification using deep learning
+- **Technologies**: Python, TensorFlow, CNN, OpenCV, Medical Imaging
+- **GitHub**: **[Live GitHub Repository Link]**
+- **Interactive Elements**:
+  - Live demo with sample images
+  - Model accuracy visualization
+  - Interactive confusion matrix
+- **Demo**: Working web interface for tumor detection
+
+**🎮 AI-based Mario Game Agent**
+- **Description**: Reinforcement Learning agent that learns to play Super Mario Bros
+- **Technologies**: Python, OpenAI Gym, Deep Q-Learning, Neural Networks
+- **GitHub**: **[Live GitHub Repository Link]**
+- **Interactive Elements**:
+  - Video gameplay demonstration
+  - Training progress visualization
+  - Interactive parameter adjustment
+- **Demo**: Embedded gameplay video with agent performance metrics
+
+**🎨 Fine-tune Stable Diffusion**
+- **Description**: Custom image generation project with personalized dataset fine-tuning
+- **Technologies**: Python, Stable Diffusion, PyTorch, Hugging Face
+- **GitHub**: **[Live GitHub Repository Link]**
+- **Interactive Elements**:
+  - Live image generation demo
+  - Before/after comparison slider
+  - Interactive prompt testing
+- **Demo**: Working image generation interface
+
+**📸 Memories - AI Photo Gallery**
+- **Description**: Android app for automatic photo clustering using face detection and recognition
+- **Technologies**: Kotlin, Android, TensorFlow Lite, Face Detection API
+- **GitHub**: **[Live GitHub Repository Link]**
+- **Interactive Elements**:
+  - App screenshots carousel
+  - Feature demonstration videos
+  - Google Play Store link
+- **Demo**: APK download or Play Store link
+
+#### Interactive Project Features
+- **Filter by Technology**: React, Python, Android, AI/ML, Backend
+- **Search functionality** for quick project discovery
+- **Expandable project cards** with detailed technical specifications
+- **Live GitHub statistics** (stars, forks, commits) via GitHub API
+- **Project timeline** showing development progress
+- **Code snippets** with syntax highlighting
+- **Architecture diagrams** with interactive elements
+- **Performance metrics** and benchmarks where applicable
+
+### 6. Research & Publications - Interactive Academic Showcase
+#### Published Research with Full Details
+**📄 "Amipi: Artificial Intelligence Based Humanoid Interface"**
+- **Publication**: IEEE Conference 2023
+- **Achievement**: **Best Paper Award Winner**
+- **Research Link**: **[Direct IEEE Xplore Link]** (if available)
+- **Abstract**: Interactive expandable section with full research summary
+- **Interactive Elements**:
+  - **Downloadable PDF** of the full paper
+  - **Citation generator** (APA, MLA, IEEE formats)
+  - **Research impact metrics** (if available)
+  - **Interactive research timeline** showing development phases
+  - **Visual abstract** with key findings highlighted
+  - **Related work** section with linked references
+  - **Methodology flowchart** with interactive elements
+  - **Results visualization** with interactive charts
+  - **Future work** section with planned research directions
+
+#### Academic Achievements Integration
+- **Interactive timeline** of academic milestones
+- **Research methodology** visualization
+- **Publication impact** metrics and citations
+- **Conference presentation** slides or video (if available)
+- **Peer review** and recognition details
+- **Academic collaboration** network visualization
+
+### 7. Technical Skills
+#### Programming Languages
+- **Python** (Advanced)
+- **Kotlin** (Advanced)
+- **Java** (Intermediate)
+- **SQL** (Intermediate)
+
+#### Frameworks & Libraries
+- **Flask** (Backend Development)
+- **Django** (Web Framework)
+- **Jetpack Compose** (Android UI)
+- **LangChain** (GenAI Applications)
+
+#### Tools & Technologies
+- **Azure OpenAI** (AI Integration)
+- **Pandas, NumPy** (Data Processing)
+- **REST APIs** (Backend Services)
+- **Room DB** (Android Database)
+- **Docker** (Containerization)
+- **CI/CD** (DevOps)
+
+### 8. Certifications - Interactive Credential Showcase
+#### Google Certifications with Verification
+**🏆 Introduction to Generative AI (Google) - Oct 2023**
+- **Credential ID**: [Actual ID if available]
+- **Verification Link**: **[Direct Google Cloud Skills Boost Link]**
+- **Interactive Badge**: Clickable with hover animations
+- **Course Details**: Expandable section with curriculum covered
+- **Skills Gained**: Interactive tags with descriptions
+- **Certificate PDF**: Direct download link
+
+**🏆 Introduction to Large Language Models (Google) - Oct 2023**
+- **Credential ID**: [Actual ID if available]
+- **Verification Link**: **[Direct Google Cloud Skills Boost Link]**
+- **Interactive Badge**: Clickable with hover animations
+- **Course Details**: Expandable section with curriculum covered
+- **Skills Gained**: Interactive tags with descriptions
+- **Certificate PDF**: Direct download link
+
+#### Interactive Certification Features
+- **Verification badges** with direct links to issuing authorities
+- **Skill mapping** showing how certifications relate to projects
+- **Certification timeline** with interactive milestones
+- **Continuing education** tracker with upcoming certifications
+- **Certificate gallery** with high-resolution images
+- **Social sharing** options for professional achievements
+- **Credential wallet** integration for digital badges
+
+### 9. Achievements & Awards
+- **Lightning Award** - Cubastion Consulting (Backend GenAI architecture)
+- **Best Research Paper Award** - IEEE Conference 2023
+- **Gold Medalist** - Amity University Gurugram 2024
+- **Academic Excellence** - 9.41 CGPA
+
+### 10. Contact Section - Fully Interactive Communication Hub
+#### Direct Contact Information
+- **Email**: himanshuacharya2k19@gmail.com
+  - **Click-to-email** with pre-filled subject line
+  - **Copy-to-clipboard** functionality with confirmation
+  - **QR code** for mobile contact addition
+- **Phone**: +91-7231908343
+  - **Click-to-call** functionality for mobile users
+  - **WhatsApp integration** with quick message templates
+  - **Copy-to-clipboard** with international format
+- **LinkedIn**: linkedin.com/in/himanshu-acharya-61907a23a
+  - **Direct profile link** with LinkedIn icon
+  - **LinkedIn messaging** quick access
+  - **Professional networking** call-to-action
+- **Location**: Gurugram, Haryana, India
+  - **Interactive map** showing general area
+  - **Timezone information** for international contacts
+  - **Local time** display for scheduling convenience
+
+#### Interactive Contact Features
+- **Real-time contact form** with the following fields:
+  - Name, Email, Company, Role, Message
+  - **Form validation** with real-time feedback
+  - **Spam protection** with reCAPTCHA integration
+  - **Auto-response** confirmation with expected response time
+  - **Message categorization** (Job Inquiry, Collaboration, General)
+- **Calendar integration** for meeting scheduling
+- **Social media** quick links with hover animations
+- **Availability status** indicator for job opportunities
+- **Response time** commitment display
+- **Multiple contact methods** with user preference selection
+
+#### Professional Networking
+- **GitHub Profile**: **[Direct GitHub Link]** with contribution graph
+- **Stack Overflow**: **[Profile Link]** if applicable
+- **Twitter/X**: **[Profile Link]** if applicable
+- **Medium/Dev.to**: **[Blog Profile]** if applicable
+- **Personal Blog**: **[Blog Link]** if applicable
+
+#### Interactive Elements
+- **Contact preference** selector (Email, Phone, LinkedIn)
+- **Meeting scheduler** with calendar integration
+- **Social media** feed integration (latest posts)
+- **Professional status** indicator (Available, Busy, Open to opportunities)
+- **Quick message** templates for different inquiry types
+- **File attachment** support for project discussions
+- **Multi-language** support for international contacts
+
+## Interactive Features & Full Functionality
+
+### Advanced Animations & Micro-interactions
+- **Smooth page transitions** with staggered section reveals
+- **Interactive project cards** with 3D hover effects and flip animations
+- **Animated progress bars** for skills with percentage indicators
+- **Interactive timeline** for experience with expandable details
+- **Particle effects** or animated geometric patterns in background
+- **Typing animation** for hero section with multiple rotating titles
+- **Mouse-following cursor effects** with interactive elements
+- **Parallax scrolling** for enhanced depth perception
+- **Loading animations** with progress indicators
+- **Interactive skill badges** that glow on hover
+- **Animated counters** for statistics (projects, years experience, etc.)
+
+### Full Technical Implementation Requirements
+- **Fully responsive design** tested across all device sizes (mobile, tablet, desktop, ultra-wide)
+- **Touch-friendly interactions** for mobile devices
+- **Keyboard navigation** support for accessibility
+- **Screen reader compatibility** with proper ARIA labels
+- **Dark/Light mode toggle** with smooth transitions and system preference detection
+- **Smooth scrolling navigation** with active section highlighting
+- **Fast loading** with image optimization and lazy loading
+- **SEO optimization** with complete meta tags and structured data
+- **Print-friendly version** with optimized layout
+- **Progressive Web App (PWA)** capabilities for offline access
+- **Cross-browser compatibility** (Chrome, Firefox, Safari, Edge)
+
+### Interactive Elements
+- **Filterable project gallery** with category tags
+- **Expandable project details** with modal overlays
+- **Interactive skill charts** with hover tooltips
+- **Animated timeline** with click-to-expand functionality
+- **Image galleries** with lightbox functionality
+- **Interactive contact form** with real-time validation
+- **Social media feed integration** (if applicable)
+- **Search functionality** for projects and skills
+- **Copy-to-clipboard** buttons for contact information
+
+## Content Tone & Messaging
+
+### Professional Positioning
+- **"AI-Powered Backend Specialist"**
+- **"Award-Winning Developer"**
+- **"GenAI Innovation Leader"**
+- **"Academic Excellence with Industry Impact"**
+
+### Key Value Propositions
+1. **Proven Track Record**: Gold Medalist with IEEE publication
+2. **Cutting-Edge Expertise**: GenAI, RAG systems, Azure OpenAI
+3. **Full-Stack Capabilities**: Backend Python, Android Kotlin
+4. **Industry Recognition**: Lightning Award, Best Paper Award
+5. **Enterprise Experience**: Scalable solutions for Fortune 500 clients
+
+## Technical Stack Recommendations
+
+## Advanced Technical Stack & Implementation
+
+### Frontend Framework & Libraries
+- **React.js 18** with TypeScript for type safety
+- **Next.js 14** for server-side rendering and optimization
+- **Tailwind CSS** for utility-first responsive styling
+- **Framer Motion** for complex animations and transitions
+- **React Hook Form** for form handling and validation
+- **React Query** for API state management
+- **Intersection Observer API** for scroll-triggered animations
+- **Web APIs**: Clipboard API, Share API, Notification API
+
+### Interactive UI Components
+- **Lottie animations** for micro-interactions
+- **Three.js** for 3D elements and particle systems
+- **Chart.js** or **D3.js** for data visualizations
+- **Swiper.js** for interactive carousels
+- **AOS (Animate On Scroll)** for scroll animations
+- **React Spring** for physics-based animations
+- **React Transition Group** for component transitions
+
+### Backend & Database (if needed)
+- **Node.js** with Express for contact form handling
+- **MongoDB** or **Supabase** for message storage
+- **Nodemailer** for email functionality
+- **reCAPTCHA** for spam protection
+- **JWT** for secure API endpoints
+
+### API Integrations
+- **GitHub API** for live repository statistics
+- **LinkedIn API** for professional updates
+- **Google Analytics** for traffic insights
+- **Google Fonts** for typography
+- **EmailJS** for client-side email functionality
+- **Calendly API** for meeting scheduling
+
+### Performance & SEO
+- **Lighthouse optimization** for 95+ scores
+- **Core Web Vitals** optimization
+- **Image optimization** with Next.js Image component
+- **Lazy loading** with Intersection Observer
+- **Service Worker** for PWA functionality
+- **Sitemap** and **robots.txt** generation
+- **Structured data** with JSON-LD
+- **Open Graph** and **Twitter Card** meta tags
+
+### Testing & Quality Assurance
+- **Jest** and **React Testing Library** for unit tests
+- **Cypress** for end-to-end testing
+- **Lighthouse CI** for performance monitoring
+- **ESLint** and **Prettier** for code quality
+- **Husky** for git hooks and pre-commit checks
+- **Cross-browser testing** across major browsers
+- **Mobile device testing** on various screen sizes
+
+### Deployment & DevOps
+- **Vercel** or **Netlify** for seamless deployment
+- **GitHub Actions** for CI/CD pipeline
+- **Domain setup** with custom domain
+- **SSL certificate** for secure connections
+- **CDN** for global content delivery
+- **Environment variables** for sensitive data
+- **Analytics** integration for user insights
+- **Error tracking** with Sentry or similar
+
+### Accessibility & Standards
+- **WCAG 2.1 AA compliance** for accessibility
+- **Screen reader** optimization
+- **Keyboard navigation** support
+- **High contrast** mode support
+- **Reduced motion** preferences
+- **Focus management** for interactive elements
+- **Alt text** for all images
+- **Semantic HTML** structure
+
+### Interactive Features Implementation
+- **Smooth scrolling** with CSS scroll-behavior and JS polyfill
+- **Parallax effects** with transform3d for performance
+- **Infinite scrolling** for project galleries
+- **Virtual scrolling** for large datasets
+- **Drag and drop** for interactive elements
+- **Gesture support** for mobile interactions
+- **Voice commands** for accessibility
+- **Progressive disclosure** for complex information
+
+### Real-time Features
+- **Live chat** widget for instant communication
+- **Real-time notifications** for form submissions
+- **Live activity** indicators (GitHub commits, blog posts)
+- **Dynamic content** updates without page refresh
+- **WebSocket** connections for real-time features
+- **Push notifications** for important updates
+
+### Analytics & Monitoring
+- **Google Analytics 4** for comprehensive tracking
+- **Hotjar** for user behavior analysis
+- **Performance monitoring** with Real User Monitoring
+- **Error tracking** and crash reporting
+- **A/B testing** for optimization
+- **Conversion tracking** for contact form submissions
+- **SEO monitoring** with Google Search Console
+
+### Security Implementation
+- **Content Security Policy** (CSP) headers
+- **HTTPS enforcement** with HSTS
+- **XSS protection** with proper sanitization
+- **CSRF protection** for form submissions
+- **Rate limiting** for API endpoints
+- **Input validation** and sanitization
+- **Secure headers** configuration
+
+## Call-to-Action Strategy
+
+### Primary CTAs
+- **"Download Resume"** (PDF version) - Direct download with analytics tracking
+- **"View Live Projects"** - Interactive project gallery with filtering
+- **"Schedule a Meeting"** - Calendar integration for direct booking
+- **"Connect on LinkedIn"** - Direct profile link with connection request
+- **"Explore My Code"** - GitHub profile with contribution visualization
+- **"Contact Me Now"** - Interactive contact form with real-time validation
+
+### Secondary CTAs
+- **"Read My Research"** - IEEE paper with interactive abstract
+- **"View Certifications"** - Credential verification with direct links
+- **"See My Work"** - Project case studies with detailed walkthroughs
+- **"Get In Touch"** - Multiple contact options with preference selection
+- **"Follow My Journey"** - Social media integration with latest updates
+- **"Download Portfolio"** - Complete project portfolio in PDF format
+
+### Interactive CTA Features
+- **Hover animations** with micro-interactions
+- **Click tracking** for conversion analysis
+- **A/B testing** for optimization
+- **Personalized messaging** based on user behavior
+- **Social sharing** buttons for viral potential
+- **Email capture** for newsletter or updates
+- **Lead scoring** for prioritizing contacts
+
+## Success Metrics
+
+## Success Metrics & Analytics
+
+### User Engagement Tracking
+- **Time spent on site** with heatmap analysis
+- **Scroll depth** and section engagement rates
+- **Project clicks** and GitHub repository visits
+- **Contact form submissions** with conversion tracking
+- **Resume downloads** with user source tracking
+- **LinkedIn profile visits** and connection requests
+- **Interactive element** engagement (animations, hover effects)
+- **Mobile vs desktop** usage patterns
+- **Return visitor** rates and behavior patterns
+
+### Professional Impact Measurement
+- **Recruiter inquiries** and response rates
+- **Interview requests** from website visitors
+- **Networking connections** through LinkedIn
+- **Project collaboration** requests
+- **Industry recognition** and mentions
+- **Speaking opportunities** and conference invitations
+- **Job offers** and salary negotiations
+- **Professional referrals** and recommendations
+
+### Technical Performance Metrics
+- **Page load speed** and Core Web Vitals
+- **Mobile responsiveness** scores
+- **Accessibility** compliance ratings
+- **SEO performance** and search rankings
+- **Cross-browser compatibility** testing results
+- **API response times** for interactive features
+- **Error rates** and crash reports
+- **Security scan** results and vulnerability assessments
+
+### Content Performance Analysis
+- **Most viewed projects** and their engagement
+- **Popular skills** and technology interests
+- **Research paper** download rates
+- **Certification verification** clicks
+- **Social media** sharing and engagement
+- **Blog post** performance (if applicable)
+- **Search queries** leading to the website
+- **Geographic distribution** of visitors
+
+### Conversion Funnel Analysis
+- **Landing page** to contact form conversion
+- **Project view** to GitHub repository visits
+- **Resume download** to interview requests
+- **LinkedIn connection** to job opportunities
+- **Email inquiry** to meeting scheduling
+- **Portfolio view** to project collaboration
+- **Skill demonstration** to technical interviews
+- **Research showcase** to academic opportunities
+
+## Final Notes
+
+This resume website should position Himanshu as a **top-tier software developer** with unique expertise in **GenAI and backend systems**. The design should reflect his **technical sophistication** while remaining **accessible and engaging**. Every element should reinforce his **professional brand** as an **innovative developer** who combines **academic excellence** with **real-world impact**.
+
+The website should serve as a **comprehensive portfolio** that not only showcases his skills but also demonstrates his **attention to detail** and **commitment to quality** - qualities that make him an ideal candidate for senior backend and Android development roles.
