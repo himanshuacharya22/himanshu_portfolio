@@ -121,6 +121,13 @@ Preferred communication style: Simple, everyday language.
 - **Start**: `npm start` runs production server
 - **Environment**: Requires `DATABASE_URL` environment variable for PostgreSQL connection
 
+### GitHub Pages Deployment
+- **Entry Point**: `index.html` in root directory for GitHub Pages compatibility
+- **Build Script**: `build-static.js` creates static build optimized for GitHub Pages
+- **GitHub Actions**: `.github/workflows/deploy.yml` automates deployment on push to main branch
+- **Static Files**: Built files output to `dist/public` directory
+- **SPA Support**: 404.html file enables client-side routing for single-page application
+
 ### Database Schema
 - **Users Table**: Basic user management with username/password
 - **PostgreSQL**: Production database with connection pooling support
